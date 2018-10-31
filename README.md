@@ -6,7 +6,7 @@
 Bikeshare Data Analysis Program
 
 ### Description
-Describe what your project is about and what it does
+This program analyses the bike share rental data based on interactive inputs from users.
 
 ### Files used
 Include the files used
