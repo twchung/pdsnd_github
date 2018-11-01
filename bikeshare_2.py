@@ -28,7 +28,7 @@ def get_filters():
     # get user input for day of week (all, monday, tuesday, ... sunday)
 
 
-    print('-'*40)
+    print('-'*35)
     return city, month, day
 
 
@@ -49,7 +49,9 @@ def load_data(city, month, day):
 
 
 def time_stats(df):
-    """Displays statistics on the most frequent times of travel."""
+    """Displays statistics on the most frequent times of travel.
+       times can be month, week or hour   
+    """
 
     print('\nCalculating The Most Frequent Times of Travel...\n')
     start_time = time.time()
@@ -64,7 +66,7 @@ def time_stats(df):
 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    print('-'*35)
 
 
 def station_stats(df):
@@ -83,7 +85,7 @@ def station_stats(df):
 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    print('-'*35)
 
 
 def trip_duration_stats(df):
@@ -99,7 +101,7 @@ def trip_duration_stats(df):
 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    print('-'*35)
 
 
 def user_stats(df):
@@ -118,7 +120,7 @@ def user_stats(df):
 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    print('-'*35)
 
 
 def main():
