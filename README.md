@@ -1,4 +1,4 @@
-### Date Created
+### Versions & Dates
 * v1.0 2018-10-21
 * v0.9 2018-10-20
 
@@ -16,5 +16,8 @@ The following files are used :
 * washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+* Udacity Git Instructor
+* Savas Ziplies - developer of MarkdownViewerPlusPlus for Notepad++.
+  MarkdownViewerPlusPlus can be downloaded [here][1].
 
+[1]: https://github.com/nea/MarkdownViewerPlusPlus
